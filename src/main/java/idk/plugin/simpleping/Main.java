@@ -1,8 +1,8 @@
 package idk.plugin.simpleping;
 
-import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
+import cn.nukkit.player.Player;
 import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.scheduler.NukkitRunnable;
 
