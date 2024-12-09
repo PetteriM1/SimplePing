@@ -1,0 +1,29 @@
+name: SimplePing
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
+main: idk.plugin.simpleping.Main
+
+commands:
+  ping:
+    description: Show ping
+    usage: "/ping"
+    permission: ping.see
+  toggleping:
+    description: Show ping in hud
+    usage: "/toggleping"
+    permission: ping.toggle
+  getping:
+    description: Show others ping
+    usage: "/getping <player>"
+    permission: ping.see.other
+permissions:
+  ping.see:
+    description: "/ping"
+    default: true
+  ping.toggle:
+    description: "/toggleping"
+    default: true
+  ping.see.other:
+    description: "/getping <player>"
+    default: op
